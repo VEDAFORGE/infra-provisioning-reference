@@ -6,9 +6,7 @@ workspace, and identity, provisioned as code and fully destroyable.
 
 This repository is scaffolded and not yet populated with a working example.
 Content is added once an example has actually been built, tested locally, and
-run for real, and once the CI/CD article that depends on it has published —
-see the parent playbook's publishing order for why the build order and the
-publish order differ here.
+run for real — nothing here describes work that has not shipped.
 
 ## Repository structure
 

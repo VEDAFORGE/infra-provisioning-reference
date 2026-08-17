@@ -1,0 +1,36 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.vscode/
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+!**/envs/*.tfvars.example
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Private publishing workflow — article drafts, outlet planning, release
+# checklists. These stay outside the public repository.
+RELEASE_CHECKLIST.md
+checklist.md
+*-source-notes.md
+*-draft.md
+PUBLICATION_PREP.md
+IMPLEMENTATION_NOTES.md
+SCREENSHOT_PLAN.md
+progress/
+planning/
+
+# Agent state and roadmaps — never publish
+.claude/
+ROADMAP.md
